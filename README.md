@@ -1,1 +1,2 @@
-Pagina WEb portafolio de trabajo diseño grafico
+Pagina WEb portafolio de trabajo diseño grafico...
+[...]Damaris Valquiria Buelvas Bolaños se feliz por favor, eres lo más lindo que hay
