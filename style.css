@@ -116,7 +116,7 @@ p
 	top: 0;
 	width:100%;
 	height: 100vh;
- 	background: url(imagenes/bg3.jpg);
+ 	background: url(imagenes/bg3-1.jpg);
  	background-size: cover; 
  	margin-bottom: 0;
 }
@@ -333,7 +333,7 @@ p
 {
 	position: relative;
 	padding: 100px 0;
-	background: url("imagenes/web-designer-website-layout-negative-space-2.jpg");
+	background: url("imagenes/web-designer-1.jpg");
 	background-size: cover;
 	min-height: 100vh;
 }
@@ -750,7 +750,7 @@ margin: 0 20px;
 /* Preloader*/
 
 .pre-loader{
-	background: url("imagenes/codigo.jpg");
+	background: url("imagenes/codigo1.jpg");
 	background-size:1348px;
 	width: 100%;
     height: 100vh;
