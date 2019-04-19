@@ -5,17 +5,30 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">    <meta charset="utf-8">
     <title>Portafolio Carlos Mestra</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="jquery.easypiechart.js"></script>
+    <script src="pre-loader.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css"> 
     </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">           
+  <body class="oculto" data-spy="scroll" data-target=".navbar" data-offset="50"> 
+    <!--Pre-loader-->
+    <section id="loader">
+
+      <div class="pre-loader" id="pre-loader">
+        
+          <div class="cargando">
+              <h1>0</h1><span class="porcentaje">%</span><span class="diseño">Diseño</span>
+          </div>
+          
+      </div>
+    </section>
+    <!--Fin del Pre-loader-->
+
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div  class ="container">
-      <a class="navbar-brand" href="#">CharlesArth</a>
+      <a class="navbar-brand" href="#">Carlos Mestra</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -211,7 +224,7 @@
                   <div class="caja">
                     <div class="contenido_caja">
                       <h2>01</h2>
-                      <h3>Diseño gráfico y web</h3>
+                      <h3>Diseño web</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, assumenda, dolor harum itaque eius amet illum molestiae, accusantium tempora libero eum. Officia voluptas eos illo ab velit explicabo rem fugiat.</p>
                       <a href="#">Leer más</a>
                     </div>
@@ -229,7 +242,7 @@
                   <div class="caja">
                     <div class="contenido_caja">
                       <h2>03</h2>
-                      <h3>Marca coop</h3>
+                      <h3>Marca</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, assumenda, dolor harum itaque eius amet illum molestiae, accusantium tempora libero eum. Officia voluptas eos illo ab velit explicabo rem fugiat.</p>
                       <a href="#">Leer más</a>
                     </div>
@@ -244,15 +257,15 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="headerText text-center">
-              <h2 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Contactame</h2>
-              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+              <h2>Contactame</h2>
+              <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
               </div>
           </div>
         </div>
       </div>
       <div class="row clearfix">
         <div class="offset-sm-2 col-sm-8">
-          <form data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">
+          <form >
             <div class="form-group">
               <label>Nombre</label>
               <input type="text" name="" class="form-control">
@@ -277,90 +290,6 @@
       </div>
     </section>
 
-<!--<section class="habilidades" id="habilidades">
-  
-                    <div  data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="container">
-                            <div class="box">
-                                <h2>
-                                    Java
-                                </h2>
-                                <div class="chart" data-percent="100">
-                                    79%
-                                </div>
-                            </div>
-                        </div>
-                        <div  data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Python
-                                </h2>
-                                <div class="chart2" data-percent="100">
-                                    64%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500" class="container">
-                            <div class="box">
-                                <h2>
-                                    SQL
-                                </h2>
-                                <div class="chart3" data-percent="100">
-                                    85%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Html
-                                </h2>
-                                <div class="chart4" data-percent="100">
-                                    83%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="container">
-                            <div class="box">
-                                <h2>
-                                    CSS
-                                </h2>
-                                <div class="chart5" data-percent="100">
-                                    82%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Javascript
-                                </h2>
-                                <div class="chart6" data-percent="100">
-                                    65%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500" class="container">
-                            <div class="box">
-                                <h2>
-                                    Photoshop
-                                </h2>
-                                <div class="chart7" data-percent="100">
-                                    90%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Illustrator
-                                </h2>
-                                <div class="chart8" data-percent="100">
-                                    <span>80</span>%
-                                </div>
-                            </div>
-                        </div> tratando de agregar los charts
-  
-</section> -->
 
 <footer>
         <div class="container">
@@ -391,102 +320,32 @@
   });
 </script>
 
+<!--Progreso de la carga-->
+<script type="text/javascript">
+  $(document).ready(function(){
+      var counter=0;
+      var c=0;
+      var i= setInterval(function() {
+          $(".pre-loader .cargando h1").html(c);
+          $(".pre-loader").css("width", c + "%");
+
+          counter++;
+          c++;
+
+          if(counter == 101){
+              clearInterval(i);
+
+          }
+          
+      }, 100);
+  });
+  </script>
+
+
 <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-<!--<script type="text/javascript">
-        $(function () {
-        $('.chart').easyPieChart({
-           size: 200,
-           barColor: '#D21010',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart').data('easyPieChart').update(79);}, 5000);
-
-          $('.chart2').easyPieChart({
-           size: 200,
-           barColor: '#382461',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart2').data('easyPieChart').update(64);}, 6000);
-
-            $('.chart3').easyPieChart({
-           size: 200,
-           barColor: 'green',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart3').data('easyPieChart').update(85);}, 7000);
-
-            $('.chart4').easyPieChart({
-           size: 200,
-           barColor: 'red',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart4').data('easyPieChart').update(83);}, 8000);
-
-            $('.chart5').easyPieChart({
-           size: 200,
-           barColor: '#12B2DA',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart5').data('easyPieChart').update(82);}, 9000);
-
-            $('.chart6').easyPieChart({
-           size: 200,
-           barColor: '#EEDD20',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart6').data('easyPieChart').update(65);}, 10000);
-
-            $('.chart7').easyPieChart({
-           size: 200,
-           barColor: '#111C89',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart7').data('easyPieChart').update(90);}, 11000);
-
-            $('.chart8').easyPieChart({
-           size: 200,
-           barColor: '#ff7c00',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart8').data('easyPieChart').update(80);}, 12000);
-            }); script de los charts
-        
-  </script> -->
 
   </body>
 </html>
