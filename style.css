@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Lora:400i');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 *
 {
@@ -11,8 +12,14 @@ body
 {
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
+	height:100%;
+	/* zoom: 99.3%; */
+
 }
 
+/* body::-webkit-scrollbar {
+	 display: none;
+}  */
 header
 {
   	position: relative;
@@ -367,11 +374,7 @@ p
 	color: #fff;
 	font-size: 1.25rem;
 }
-footer
-{
-	background: #000;
-	padding:  50px 0 50px;
-}
+
 .lis
 {
 	margin: 0;
@@ -432,10 +435,7 @@ margin: 0 20px;
 
 
 
-/*@media (min-height: 992px) 
-{
-	
-}*/
+
 
 @media all and (max-width: 992px)
 {
@@ -545,19 +545,8 @@ margin: 0 20px;
 	{
     	margin-left:16px;
 	}
-	footer 
-	{
-    	padding: 0.1px 0;
-	}
-	footer p
-	{
-		font-size: 1.1rem;
-		color: #A19E9E;
-	}
-	.fa 		
-	{
-       	font-size: 0.7em;
-	}
+	
+	
 .home-content__buttons .btn 
 	{
     margin: .5rem;
@@ -757,7 +746,8 @@ margin: 0 20px;
 
 .pre-loader{
 	background: url("imagenes/codigo1.jpg");
-	background-size:1348px;
+	background-size:1400px;
+	/* background-size: cover; */
 	width: 100%;
 	height: 100vh;
 }
@@ -796,12 +786,16 @@ margin: 0 20px;
 	margin-top: -10px;
 }
 
-#loader .oculto{
-	overflow: hidden !important;
-}
+/* .oculto {
+	overflow-y: hidden !important;
+}  */
 
 /*testimonios*/
+/* .testimonios{
+	zoom:50%
+} */
 .demo{
+	padding-bottom: 110px;
 	padding-top:110px;
 	background: #000;
 }
@@ -901,4 +895,87 @@ margin: 0 20px;
         width: 100px !important;
         height: 50px;
     }
+
+/***** Footer *****/
+footer{
+	height: 600px;
+}
+.footer-top 
+{ 
+	padding-top: 200px; 
+	padding-bottom: 50px;
+	background: rgb(15, 15, 15); 
+	text-align: left; 
+	color: #aaa; 
+}
+.footer-top h3 
+{ 
+	padding-bottom: 10px; 
+	color: #F5A623; 
+}
+
+.footer-about img.logo-footer { 
+	max-width: 74px;
+	margin-top: 0; 
+	margin-bottom: 18px; 
+}
+.footer-about p a { 
+	color: #aaa; 
+	border-bottom: 1px dashed #666; 
+}
+.footer-about p a:hover, .footer-about p a:focus { 
+	color: rgb(255, 255, 255); 
+	border-color: #aaa; 
+}
+.footer-contact { 
+transform: translateX(-20px)}
+.footer-contact span{ 
+	color: #F5A623; 
+	
+}
+.footer-contact p { 
+	word-wrap: break-word; 
+}
+.footer-contact i { 
+	padding-right: 5px;
+	font-size: 18px; 
+	color: #666; 
+}
+.footer-contact p a { 
+	color: #aaa; 
+	border-bottom: 1px dashed #666; 
+}
+.footer-contact p a:hover, .footer-contact p a:focus {
+	 color: rgb(255, 255, 255); 
+	 border-color: #aaa; }
+
+.footer-social a { 
+	display: inline-block; 
+	margin-right: 10px; 
+	margin-bottom: 8px; color: #777; 
+	border: 0; 
+}
+.footer-social a:hover, .footer-social a:focus { 
+	color: rgb(255, 255, 255); 
+	border: 0; 
+}
+.footer-social i { 
+	font-size: 24px; 
+	vertical-align: middle; 
+}
+
+.footer-bottom { 
+	padding: 15px 0; 
+	background: rgb(32, 32, 32); 
+	text-align: left;
+	 color: rgba(170, 170, 170, 0.335); 
+	}
+
+.footer-copyright p { 
+	margin: 0; 
+	padding: 0.5rem 0; 
+}
+
+
+
 

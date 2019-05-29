@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 body {
+    zoom:99.3%;
     background:url("output.svg");
     background-size: cover;
     margin: 50px;
-    padding: 0;
+    padding-left:20px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 .cabecera .box h1 {
     height: 50px;
