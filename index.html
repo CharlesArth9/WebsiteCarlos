@@ -41,6 +41,29 @@
           </div>
           
       </div>
+      <!-- Modal de bienvenida-->
+      <div class="modal-box">
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-body">
+                                        <h3 class="title">hola!</h3>
+                                        <span class="sub-title">Bienvenido.</span>
+                                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                        <button class="subscribe">ven, registrate ;)</button>
+                                        <div class="circle1"></div>
+                                        <div class="circle2"></div>
+                                        <div class="circle3"></div>
+                                        <div class="circle4"></div>
+                                        <div class="circle5"></div>
+                                        <div class="circle6"></div>
+                                        <div class="circle7"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+      </div>
     </section>
     <!--Fin del Pre-loader-->
 
@@ -490,7 +513,9 @@
 
           if(counter == 101){
               clearInterval(i);
-              // alert("Carga casi completa... presiona 'aceptar' para terminar la cargar la página");
+              $( document ).ready(function() {
+              $('#myModal').modal('toggle')
+              });
               // window.scrollBy(0,700);
           }
           
