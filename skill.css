@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lora:400i');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 body {
-    background: #000;
+    zoom:99.3%;
+    background:url("output.svg");
+    background-size: cover;
     margin: 50px;
-    padding: 0;
+    padding-left:20px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 .cabecera .box h1 {
     height: 50px;
@@ -114,7 +120,7 @@ section .s4 {
     height: 500px;
     /*background: url(imagenes/bg1.jpg);
  	background-size: cover;*/
- 	background: #262626; 
+ 	
  
 
 }
@@ -187,7 +193,7 @@ footer p {
 	left: 0;
 	width:100%;
 	height: 100%;
-	background: linear-gradient(rgb(21, 22, 20),rgb(35, 29, 116));
+	background: linear-gradient(rgb(32, 35, 36),rgb(43, 49, 66));
 	z-index: 1;
 	transition: 0.5s;
 }
@@ -205,21 +211,42 @@ footer p {
 {
 	font-size: 16px;
 	line-height: 18px;
-	color: #fff;
+    color: #fff;
 }
 .perfil .tarjeta .contenido h1
 {
 	font-size: 35px;
-	line-height: 20px;
+	line-height: 5px;
 	color: #fff;
 }
 .perfil .tarjeta:hover .contenido h1
 {
 	color: rgb(208, 204, 211);
 }
+.perfil .tarjeta .contenido .detalles
+{
+    transform:translateY(-12px);
+    color: rgb(75, 125, 185);
+}
+.perfil .tarjeta .contenido .detalles span
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color:whitesmoke;
+}
+.perfil .tarjeta:hover .contenido .detalles span
+{
+    color: rgb(221, 125, 46);
+
+}
+.perfil .tarjeta:hover .contenido .detalles h2
+{
+	font-size: 19px;
+	color: rgb(253, 248, 244);
+}
 .perfil .tarjeta:hover .contenido .detalles
 {
-	font-size: 16px;
+	font-size: 18px;
 	color: rgb(253, 248, 244);
 }
 .perfil .tarjeta .contenido .rostro
@@ -229,9 +256,68 @@ footer p {
 	margin: 0 auto;
 	border-radius:50%;
 	overflow: hidden;
-	border: 7px solid #FC8216;
+	border: 7px solid  rgb(247, 135, 43);
 	box-shadow: 0 10px 20px rgba(0,0,0,.2);
-
-
 }
+.social-tarjeta .lis li {
+    transform: translate(-5px, -12px);
+    margin: 0 12px;
+    }
+.social-tarjeta .lis li a {
+    color: #777;
+    font-size: 1.3em; 
+}
+.social-tarjeta .lis li a:hover {
+    color: rgb(255, 255, 255);  
+}
+/* Efecto Glicth*/
+/* .cabecera .box h1::before,.cabecera .box h1::after
+{
+	content: attr(data-text);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+} 
+.cabecera .box h1::before
+{
+	color: #ff00c1;
+	animation: glitch-effect 3s infinite;
+}
+.cabecera .box h1::after
+{
+	color: #3498db;
+	animation: glitch-effect 3s infinite;
+}
+@keyframes glitch-effect{
+	0%{
+		left:-4px;
+		top:-4px;
+	}
+	25%{
+		
+		left:4px;
+		top:0px;
 
+	}
+	50%{
+		
+		left:-2px;
+		top:4px;
+
+	}
+	75%{
+		
+		left:2px;
+		top:-2px;
+
+	}
+	100%{
+		
+		left:0px;
+		top:-4px;
+
+	}
+} */

@@ -5,17 +5,72 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">    <meta charset="utf-8">
     <title>Portafolio Carlos Mestra</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="jquery.easypiechart.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="media-query.css"> 
+
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">           
+  <body class="oculto" data-spy="scroll" data-target=".navbar" data-offset="50"> 
+    
+  <div class="contenedor-main">
+    
+    <!--Pre-loader-->
+    <section id="loader">
+
+      <div class="pre-loader" id="pre-loader">
+        
+          <div class="cargando">
+              <h1>0</h1><span class="porcentaje">%</span><span class="diseño">Diseño</span>
+          </div>
+          
+      </div>
+      <!-- Modal de bienvenida-->
+      <div class="modal-box">
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-body">
+                                        <h3 class="title">hola!</h3>
+                                        <span class="sub-title">Bienvenido.</span>
+                                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                        <button class="subscribe">ven, registrate ;)</button>
+                                        <div class="circle1"></div>
+                                        <div class="circle2"></div>
+                                        <div class="circle3"></div>
+                                        <div class="circle4"></div>
+                                        <div class="circle5"></div>
+                                        <div class="circle6"></div>
+                                        <div class="circle7"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+      </div>
+    </section>
+    <!--Fin del Pre-loader-->
+
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div  class ="container">
-      <a class="navbar-brand" href="#">CharlesArth</a>
+      <a class="navbar-brand" href="#">Carlos Mestra</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,13 +83,13 @@
                   <a class="nav-link" href="#proyectos">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link " href="#hola">Hola</a>
+                  <a class="nav-link " href="#hola">Servicios</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link" href="#perfil">Perfil</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link " href="#servicio">Servicios</a>
+                  <a class="nav-link " href="#testimonios">Testimonios</a>
                   </li>
                   <li class="nav-item">
                   <a class="nav-link " href="#contacto">Contacto</a>
@@ -49,10 +104,10 @@
                 <div class="container h100">
                   <div class="contentBox h100">
                        <div>
-                         <h1 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lo hermoso de la vida</h1>
-                         <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="400">Si tu lo deseas puedes volar, solo tienes que confiar mucho en ti, seguir, puedes contar conmigo te doy todo mi opoyo, si tu lo deseas puedes volar, si tu quieres el cielo alcanzar y las estrellas tocar... Digimon!</p>
+                         <h1 data-aos="fade-up"data-aos-duration="1500"data-aos-delay="0">Lo hermoso de la vida</h1>
+                         <p data-aos="fade-up"data-aos-duration="1500"data-aos-delay="0">Si tu lo deseas puedes volar, solo tienes que confiar mucho en ti, seguir, puedes contar conmigo te doy todo mi opoyo, si tu lo deseas puedes volar, si tu quieres el cielo alcanzar y las estrellas tocar... Digimon!</p>
 
-                <div data-aos="fade-up"data-aos-duration="2500"data-aos-delay="0"  class="home-content__buttons">
+                <div data-aos="fade-up"data-aos-duration="2000"data-aos-delay="0"  class="home-content__buttons">
                     <a href="#contacto" class="btn">
                         Iniciemos un proyecto
                     </a>
@@ -78,7 +133,7 @@
             </div>
             <div class="row">
               <div class="col-sm-4">
-                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">
+                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="">
                   <div class="imgBx" >
                     <img src="imagenes/img4.jpg" class="img-fluid">
                   </div>
@@ -89,6 +144,26 @@
               </div>
               <div class="col-sm-4">
                 <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="500">
+                  <div class="imgBx" >
+                    <img src="imagenes/img1.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h3>GunGirl<br><span>ilustración Digital</span></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="900">
+                  <div class="imgBx" >
+                    <img src="imagenes/img.jpg" class="img-fluid">
+                  </div>
+                  <div class="content">
+                    <h3>Ella<br><span>Dibujo a mano</span></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="1300">
                   <div class="imgBx">
                     <img src="imagenes/img5.jpg" class="img-fluid">
                   </div>
@@ -98,7 +173,7 @@
                 </div>
               </div>
               <div class="col-sm-4">
-                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="1000">
+                <div class="placeBox" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="1700">
                   <div class="imgBx">
                     <img src="imagenes/img6.jpg" class="img-fluid">
                   </div>
@@ -114,18 +189,18 @@
         <div class="contentBox h100">
           <div>
             <h2 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Hola como estan todos</h2>
-              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               <a data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0" href="perfil.html" class="btn btnsec2">Ver un poco más</a>
           </div>
         </div>
     </section>
-    <section class= "perfil" id="perfil">
+     <section class= "perfil" id="perfil">
       <div class="container">
         <div class="row">
           <div class="offset-sm-2 col-sm-8"> 
             <div class="headerText text-center">
               <h1 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">DISEÑO GRÁFICO DEL BUENO</h1>
-              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
+              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>            
             </div>
           </div>
         </div> 
@@ -184,14 +259,151 @@
           </div>
         </div>
       </div>
-    </section> 
-    <section class="servicio" id="servicio">
+    </section>  
+   <!-- <section class="testimonios" id="testimonios"> 
+     <div class="demo">
+      <div class="container">
+        <h1>TESTIMONIOS</h1>
+        <p class="testi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia ex doloribus sequi quidem eaque, ratione animi, tenetur veniam repellat dicta quasi rerum, id sit ipsam cumque. Quas, consectetur ut?</p>
+          <div class="row">
+              <div class="col-md-12">
+                  <div id="testimonial-slider" class="owl-carousel">
+                      <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                          <br>
+                          <br>
+                          <br>
+                           Nada mejor para recomendarme que enseñando mi propio trabajo a travéz de este medio ;)
+                          <br>
+                          <br>
+                          <br>
+                          <br>
+                    
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/yo1.jpg" class=""alt=""></div>
+                              <h3 class="title">Carlos Mestra</h3>
+                              <span class="post">Web Developer</span>
+                          </div>
+                      </div>
+                      <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/isi.jpg" alt=""></div>
+                              <h3 class="title">Iselis Mestra</h3>
+                              <span class="post">Maestra</span>
+                          </div>
+                      </div>
+                      <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/team-3.jpg" alt=""></div>
+                              <h3 class="title">Steve Thomas</h3>
+                              <span class="post">Web Developer</span>
+                          </div>
+                      </div>
+                         
+                         <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/team-6.jpg" alt=""></div>
+                              <h3 class="title">Steve Thomas</h3>
+                              <span class="post">Web Developer</span>
+                          </div>
+                      </div>     
+                         <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/team-4.jpg" alt=""></div>
+                              <h3 class="title">Steve Thomas</h3>
+                              <span class="post">Web Developer</span>
+                          </div>
+                      </div>     
+                         <div class="testimonial">
+                          <span class="icon fa fa-quote-left"></span>
+                          <p class="description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.Vivamus arcu metus, mattis sed sagittis at, sagittis quis neque. Praesent.
+                          </p>
+                          <div class="testimonial-content">
+                              <div class="pic"><img src="imagenes/team-6.jpg" alt=""></div>
+                              <h3 class="title">Steve Thomas</h3>
+                              <span class="post">Web Developer</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section> -->
+  <footer id="contacto">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+          <img class="logo-footer" src="imagenes/logo.png" alt="logo-footer" data-at2x="assets/img/logo.png">
+          <p>
+            We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+          </p>
+          <p><a href="#">Mi equipo</a></p>
+              </div>
+        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+          <h3>Contacto</h3>
+              <p><i class="fas fa-phone"></i><span>Cel:</span> (+57) 310 691 1943</p>
+              <p><i class="fas fa-envelope"></i><span>Email:</span><a href="https://www.gmail.com"target=»_blank»>ingcarlosmestra@gmail.com</a></p>
+              <p><i class="fas fa-envelope"></i><span>Email:</span><a href="https://www.gmail.com"target=»_blank»> charlesarth@gmail.com</a></p>
+              <p><i class="fab fa-linkedin"></i><span>Linkedin:</span> ingcarlosmestra.</p>
+              <p><i class="fab fa-skype"></i><span>Skype:</span> Carlos Mestra.</p>
+              <p><i class="fas fa-map-marker-alt"></i><span>Direccion:</span><br>Calle 9c #25-42 Barrio 24 de Mayo, Cereté - Córdoba, Colombia.</p>
+            </div>
+              <div class="col-md-4 col-lg-3 footer-social wow fadeInUp">
+                <h3>Sígueme</h3>
+                <p>
+                  <a href="https://www.facebook.com/carlos.mestra.5"target=»_blank»><i class="fab fa-facebook"></i></a> 
+                  <a href="https://agoraimages.com/user/profile/187a00a1-55ed-458e-84c5-11a9f8e90345"target=»_blank»><i class="fa fa-camera"></i></a>
+                  <a href="https://www.linkedin.com/in/ingcarlosmestra"target=»_blank»><i class="fab fa-linkedin"></i></a> 
+                  <a href="https://www.instagram.com/carlos_mestra9/"target=»_blank»><i class="fab fa-instagram"></i></a> 
+                  <a href="https://www.pinterest.es/CharlesArth/"target=»_blank»><i class="fab fa-pinterest"></i></a>
+                  <a href="https://twitter.com/charlesarth"target=»_blank»><i class="fab fa-twitter"></i></a> 
+                </p>
+              </div>
+        </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+           <div class="col-md-5 footer-copyright">
+                <p>&copy; Copyright 2019 Portafolio por Carlos Mestra</p>
+              </div>
+           <div class="col-md-7 footer-menu">
+              
+              </div>
+         </div>
+    </div>
+  </div>
+</footer> 
+</div>
+    <!-- <section class="servicio" id="servicio">
                   <h1 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="1000">SERVICIOS</h1>
                 <div class="serv" data-aos="fade-up"data-aos-duration="1000"data-aos-delay="1300">
                   <div class="caja">
                     <div class="contenido_caja">
                       <h2>01</h2>
-                      <h3>Diseño gráfico y web</h3>
+                      <h3>Diseño web</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, assumenda, dolor harum itaque eius amet illum molestiae, accusantium tempora libero eum. Officia voluptas eos illo ab velit explicabo rem fugiat.</p>
                       <a href="#">Leer más</a>
                     </div>
@@ -209,7 +421,7 @@
                   <div class="caja">
                     <div class="contenido_caja">
                       <h2>03</h2>
-                      <h3>Marca coop</h3>
+                      <h3>Marca</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, assumenda, dolor harum itaque eius amet illum molestiae, accusantium tempora libero eum. Officia voluptas eos illo ab velit explicabo rem fugiat.</p>
                       <a href="#">Leer más</a>
                     </div>
@@ -218,21 +430,21 @@
               
 
                 </div>
-</section>       
-    <section class="contacto" id="contacto">
+</section>        -->
+    <!-- <section class="contacto" id="contacto">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="headerText text-center">
-              <h2 data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Contactame</h2>
-              <p data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+              <h2>Contactame</h2>
+              <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
               </div>
           </div>
         </div>
       </div>
       <div class="row clearfix">
         <div class="offset-sm-2 col-sm-8">
-          <form data-aos="fade-up"data-aos-duration="1000"data-aos-delay="0">
+          <form >
             <div class="form-group">
               <label>Nombre</label>
               <input type="text" name="" class="form-control">
@@ -257,90 +469,6 @@
       </div>
     </section>
 
-<!--<section class="habilidades" id="habilidades">
-  
-                    <div  data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="container">
-                            <div class="box">
-                                <h2>
-                                    Java
-                                </h2>
-                                <div class="chart" data-percent="100">
-                                    79%
-                                </div>
-                            </div>
-                        </div>
-                        <div  data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Python
-                                </h2>
-                                <div class="chart2" data-percent="100">
-                                    64%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500" class="container">
-                            <div class="box">
-                                <h2>
-                                    SQL
-                                </h2>
-                                <div class="chart3" data-percent="100">
-                                    85%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Html
-                                </h2>
-                                <div class="chart4" data-percent="100">
-                                    83%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500" class="container">
-                            <div class="box">
-                                <h2>
-                                    CSS
-                                </h2>
-                                <div class="chart5" data-percent="100">
-                                    82%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Javascript
-                                </h2>
-                                <div class="chart6" data-percent="100">
-                                    65%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="2500" class="container">
-                            <div class="box">
-                                <h2>
-                                    Photoshop
-                                </h2>
-                                <div class="chart7" data-percent="100">
-                                    90%
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="3000" class="container">
-                            <div class="box">
-                                <h2>
-                                    Illustrator
-                                </h2>
-                                <div class="chart8" data-percent="100">
-                                    <span>80</span>%
-                                </div>
-                            </div>
-                        </div> tratando de agregar los charts
-  
-</section> -->
 
 <footer>
         <div class="container">
@@ -357,7 +485,7 @@
           <hr>
       </div>
             <p class="cpryt text-center"> © Copyright 2019 Portafolio por Carlos Mestra <a href="#"></a></p>
-    </footer>
+    </footer> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -371,103 +499,45 @@
   });
 </script>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+<!--Progreso de la carga-->
+<script type="text/javascript">
+  $(document).ready(function(){
+      var counter=0;
+      var c=0;
+      var i= setInterval(function() {
+          $(".pre-loader .cargando h1").html(c);
+          $(".pre-loader").css("width", c + "%");
 
-<!--<script type="text/javascript">
-        $(function () {
-        $('.chart').easyPieChart({
-           size: 200,
-           barColor: '#D21010',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart').data('easyPieChart').update(79);}, 5000);
+          counter++;
+          c++;
 
-          $('.chart2').easyPieChart({
-           size: 200,
-           barColor: '#382461',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart2').data('easyPieChart').update(64);}, 6000);
+          if(counter == 101){
+              clearInterval(i);
+              $( document ).ready(function() {
+              $('#myModal').modal('toggle')
+              });
+              // window.scrollBy(0,700);
+          }
+          
+      }, 45);
+  });
+  </script>
 
-            $('.chart3').easyPieChart({
-           size: 200,
-           barColor: 'green',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart3').data('easyPieChart').update(85);}, 7000);
 
-            $('.chart4').easyPieChart({
-           size: 200,
-           barColor: 'red',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart4').data('easyPieChart').update(83);}, 8000);
-
-            $('.chart5').easyPieChart({
-           size: 200,
-           barColor: '#12B2DA',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart5').data('easyPieChart').update(82);}, 9000);
-
-            $('.chart6').easyPieChart({
-           size: 200,
-           barColor: '#EEDD20',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart6').data('easyPieChart').update(65);}, 10000);
-
-            $('.chart7').easyPieChart({
-           size: 200,
-           barColor: '#111C89',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart7').data('easyPieChart').update(90);}, 11000);
-
-            $('.chart8').easyPieChart({
-           size: 200,
-           barColor: '#ff7c00',
-           scaleColor: false,
-           lineWidth: 15,
-           trackColor:'#373737',
-           animate: 2000
-            });
-            setTimeout(function() {
-            $('.chart8').data('easyPieChart').update(80);}, 12000);
-            }); script de los charts
-        
-  </script> -->
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        autoPlay:true
+    });
+});
+     </script>
   </body>
 </html>
 
