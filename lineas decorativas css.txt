@@ -1,0 +1,25 @@
+/* lineas decorativas */
+
+.modal-box .modal-dialog .modal-content .modal-body .circle6:before,
+.modal-box .modal-dialog .modal-content .modal-body .circle6:after{
+	content: "";
+	background:#f37e1e;
+	width: 435px;
+	height: 3px;
+	border-radius: 5%;
+	position: absolute;
+	top: 230px;
+	left: 30px;
+} 
+
+.modal-box .modal-dialog .modal-content .modal-body .circle7:before,
+.modal-box .modal-dialog .modal-content .modal-body .circle7:after{
+	content: "";
+	background:#f37e1e;
+	width: 435px;
+	height: 3px;
+	border-radius: 5%;
+	position: absolute;
+	bottom: 190px;
+	left: 30px;
+}
